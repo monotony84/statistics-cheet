@@ -44,7 +44,7 @@ $$
 
 <div style="page-break-before:always"></div>
 
-####　共分散
+#### 共分散
 
 $$
 Cov(x,y) = \frac{1}{n}\sum_{i=1}^{n}{(x_i-\mu_x)(y_i - \mu_y)}
@@ -236,7 +236,7 @@ $$
 実際には、以下の式で用いることが多い
 
 $$
-P(B|A) = \frac{P(B_i) \cdot P(A|B_i)}{\sum_{j=1}^{k} P(B_j)P(A|B_j)}
+P(B|A) = \displaystyle\frac{P(B_i) \cdot P(A|B_i)}{\sum_{j=1}^{k} P(B_j)P(A|B_j)}
 $$
 
 
@@ -433,7 +433,7 @@ $$
 F_{1-\alpha}(k_1,k_2)=\frac{1}{F_\alpha(k_2,k_1)}
 $$
 
-###　確率分布の関係
+### 確率分布の関係
 
 #### 正規分布とカイ二乗分布とt分布の関係
 
@@ -635,7 +635,7 @@ $$
 
 <div style="page-break-before:always"></div>
 
-###　母平均の差の検定
+### 母平均の差の検定
 
 #### 対応あり(分散未知)
 
@@ -804,18 +804,18 @@ $$
 
 各データと全体の平均の差の2乗
 
-$\sum_{i=1}^{n}(x_i-\bar{x})^2$
+$\displaystyle\sum_{i=1}^{n}(x_i-\bar{x})^2$
 
 以下のように書くこともできる
 （郡の数$\times$郡内のデータの個数）
 
-$\sum_{i=1}^r\sum_{j=1}^{n_i}(x_{ij}-\bar{x})^2$
+$\displaystyle\sum_{i=1}^r\displaystyle\sum_{j=1}^{n_i}(x_{ij}-\bar{x})^2$
 
 ##### 水準間（群間）平方和
 
 因子の各水準（郡）の平均値と全体の平均のズレの二乗$\times$各群の標本数
 
-$\sum_{i=1}^r{n_i(x_i-\bar{x}})^2$
+$\displaystyle\sum_{i=1}^r{n_i(x_i-\bar{x}})^2$
 
 ##### 残差（郡内）平方和
 
